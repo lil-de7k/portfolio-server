@@ -22,7 +22,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/messages', messageRoutes);
 
 // Connect to MongoDB and start server
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3000;
 
 mongoose.connect(process.env.MONGO_URI, { 
     useNewUrlParser: true, 
